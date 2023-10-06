@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'PixelifyFont';
+    src: url('./fonts/PixelifySans-VariableFont_wght.ttf');
+}
+@keyframes slideAnim {
+    0% {
+        transform: translateY(-120%);
+      }
+      100% {
+        transform: translateY(105%);
+    }
+}
+@keyframes fadeAnim {
+    0% {
+      opacity: 1;
+    }
+    50% {
+        opacity: 0.9;
+    }
+    60% {
+        opacity: 0.7;
+    }
+    70% {
+        opacity: 0.6;
+    }
+    80% {
+        opacity: 0.4;
+    }
+    90% {
+        opacity: 0.3;
+    }
+    95% {
+        opacity: 0.1;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.screen {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
+.block {
+    font-family: 'PixelifyFont';
+    font-size: 46px;
+    width: 36px;
+    height: 95%;
+    max-height: 100%;
+    word-wrap: break-word;
+    float: left;
+    opacity: 1;
+
+}
